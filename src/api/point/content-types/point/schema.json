@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "points",
+  "info": {
+    "singularName": "point",
+    "pluralName": "points",
+    "displayName": "point",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "firstname": {
+      "type": "string"
+    },
+    "lastname": {
+      "type": "string"
+    },
+    "birthdate": {
+      "type": "string"
+    },
+    "gender": {
+      "type": "string"
+    },
+    "point": {
+      "type": "integer"
+    },
+    "insert_date": {
+      "type": "datetime"
+    },
+    "last_update": {
+      "type": "datetime"
+    },
+    "uid": {
+      "type": "uid"
+    }
+  }
+}

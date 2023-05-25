@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "coupons",
+  "info": {
+    "singularName": "coupon",
+    "pluralName": "coupons",
+    "displayName": "coupon",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "coupon_id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "point": {
+      "type": "biginteger"
+    },
+    "campaign_id": {
+      "type": "string"
+    },
+    "insert_date": {
+      "type": "datetime"
+    },
+    "last_update": {
+      "type": "datetime"
+    },
+    "uid": {
+      "type": "uid"
+    }
+  }
+}

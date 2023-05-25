@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "campaigns",
+  "info": {
+    "singularName": "campaign",
+    "pluralName": "campaigns",
+    "displayName": "campaign",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email",
+      "required": false
+    },
+    "phone": {
+      "type": "string"
+    },
+    "uid": {
+      "type": "string"
+    },
+    "campaign_id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "point": {
+      "type": "integer"
+    },
+    "reward": {
+      "type": "string"
+    },
+    "detail": {
+      "type": "string"
+    },
+    "point_total": {
+      "type": "integer"
+    },
+    "insert_date": {
+      "type": "datetime"
+    },
+    "last_update": {
+      "type": "datetime"
+    }
+  }
+}
